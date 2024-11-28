@@ -1,6 +1,7 @@
+# SPDX-FileCopyrightText: 2024 Yuichiro Hatanaka <s19c1092el@s.chibakoudai.jp>                                       
+# SPDX-License-Identifier: BSD-3-Clause
 import rclpy                                        #ROS 2のクライアントのためのライブラリ
 from rclpy.node import Node                         #ノードを実装するためのNodeクラス
-from std_msgs.msg import Float32                    #通信の型（16ビットの符号付き整数）
 
 rclpy.init()
 node = Node("talker")                               #ノードを作成（nodeというオブジェクトを作成）
